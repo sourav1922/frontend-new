@@ -20,7 +20,6 @@ app.use(express.static(path.join(__dirname, "build")));
 // Middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.json())
 
 // Proxy route to the backend
 app.post('/customer/customerDetails', async (req, res) => {
