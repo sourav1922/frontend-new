@@ -44,5 +44,5 @@ app.get("*", (req, res) => {
 // Start the BFF server
 const PORT = 5000;
 app.listen(PORT, () => {
-    console.log(`BFF server running on http://localhost:${PORT}`);
+    console.log(`BFF server running on http://3.133.150.155:${PORT}`);
 });
